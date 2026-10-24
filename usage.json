@@ -13,13 +13,31 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:04:27.634220+00:00",
+    "validatedAt": "2026-10-24T14:56:10.419956+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "cb692e1509a2fa4f0a659095ed1be71bf648c532128f3cf31807194e3ece39b4",
-    "manifestSha256": "8d96527913a00e1d51aaed6020e5c58bd65430408690c4dcf4c7a56e81ad668a"
+    "manifestSha256": "15f469adedea541468667b962fbae5dc63c05b007050dc02ce6e85765f402c55"
   },
   "npmPackages": [
     "@x12i/runx-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/runx": {
+      "packageVersion": "3.0.0",
+      "title": "Evaluate an application-owned JSON condition deterministically",
+      "entrypoint": "src/runx-example.mjs",
+      "command": "npm run example:runx",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "5c4323f5a189056c4feeca761f97fc0e4f5835ababdd51d4799e162437753ac3",
+      "manifestSha256": "15f469adedea541468667b962fbae5dc63c05b007050dc02ce6e85765f402c55",
+      "validatedAt": "2026-10-24T14:56:10.419956+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/index.mjs": "cb692e1509a2fa4f0a659095ed1be71bf648c532128f3cf31807194e3ece39b4",
+    "src/runx-example.mjs": "5c4323f5a189056c4feeca761f97fc0e4f5835ababdd51d4799e162437753ac3"
+  }
 }

@@ -2,14 +2,15 @@
   "name": "runx-usage",
   "version": "1.0.0",
   "private": true,
-  "description": "Usage example for @x12i/runx-docs: list the bundled guides and read a use case.",
+  "description": "Tested consuming examples for @x12i/runx-docs, @x12i/runx",
   "type": "module",
   "engines": {
     "node": ">=24"
   },
   "scripts": {
     "start": "node src/index.mjs",
-    "check": "node --check src/index.mjs"
+    "check": "node --check src/index.mjs",
+    "example:runx": "node src/runx-example.mjs"
   },
   "devDependencies": {
     "@x12i/runx-docs": "1.0.0"
@@ -18,5 +19,8 @@
     "type": "git",
     "url": "https://github.com/x12i-sdk/runx.git"
   },
-  "homepage": "https://www.npmjs.com/package/@x12i/runx-docs"
+  "homepage": "https://www.npmjs.com/package/@x12i/runx-docs",
+  "dependencies": {
+    "@x12i/runx": "3.0.0"
+  }
 }
