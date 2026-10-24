@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/runx-docs",
+  "packageVersion": "1.0.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/runx-docs",
+  "usageRepository": "https://github.com/x12i-sdk/runx",
+  "sourceRepository": "https://github.com/x12i/funcx",
+  "sourceCommit": "6b647cd57c0ea387878417eab32188efd8d051b5",
+  "sourcePackageDirectory": "runx-docs/packages/runx-docs",
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:04:27.634220+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "cb692e1509a2fa4f0a659095ed1be71bf648c532128f3cf31807194e3ece39b4",
+    "manifestSha256": "8d96527913a00e1d51aaed6020e5c58bd65430408690c4dcf4c7a56e81ad668a"
+  },
+  "npmPackages": [
+    "@x12i/runx-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
